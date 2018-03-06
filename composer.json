@@ -1,0 +1,21 @@
+{
+    "name": "phu-le/php-playground",
+    "description": "Playgorund PHP 7 Features",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phu-le-geniee",
+            "email": "phu.le@geniee.co.jp"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Playground\\": "src/"
+        }
+    },
+    "require": {
+        "react/event-loop": "^0.4.3",
+        "react/http": "^0.8.1"
+    }
+}
