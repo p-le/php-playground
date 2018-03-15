@@ -15,7 +15,7 @@ function callback($notificationCode, $severity, $message, $messageCode, $bytesTr
 
 $context = stream_context_create();
 stream_context_set_params($context, [
-    "notification" => "callback"
+    "notification" => "Playground\Streams\callback"
 ]);
 
 $handle = fopen('http://www.example.com', 'r', false, $context);
